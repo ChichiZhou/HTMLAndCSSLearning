@@ -1,0 +1,100 @@
+body {
+    background-color: sandybrown;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    font-weight: bolder;
+    line-height: 1.5em;
+}
+.box1 {
+    background-color: antiquewhite;
+    color: royalblue;
+}
+
+.box1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    word-spacing: 2em;
+}
+
+button {
+    background-color: royalblue;
+    color: greenyellow;
+}
+
+button:hover{
+    background-color: red;
+}
+
+button:active {
+    background-color: yellow;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.list li {
+    /* background-color: red; */
+    list-style-image: url('../image/The_DuckDuckGo_Duck.png');
+}
+
+a {
+    text-decoration: none;
+    color: rosybrown;
+}
+
+a:hover {
+    color: cyan;
+}
+
+a:visited {
+    color: red;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.list2 li:nth-child(even){
+    background-color: grey;
+}
+
+.list2 li:nth-child(odd){
+    background-color: gold;
+}
+
+.list2 li:first-child{
+    background-color: red;
+}
+
+.list2 li:end-child {
+    background-color: aqua;
+}
+
+.list2 li:nth-child(3){
+    background-color: green;
+}
