@@ -13,3 +13,6 @@ document.getElementsByTagName("body") 或者用别的方法 .getElementsById
 
 . 表示类。可以用于 HTML 生成含有某个类的.
 
+HTML tag 后面跟的是 attribute
+<h1 id="sp-list"></h1>   这里的 id 就是 attribute
+
